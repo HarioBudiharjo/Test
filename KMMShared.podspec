@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
                                     }
     s.author                    = { "author" => "author@email.cim" }
     s.source                    = { :git => 'https://github.com/HarioBudiharjo/Test.git', :tag => s.version.to_s }
-    s.vendored_frameworks       = "shared.xcframework"
+    s.vendored_frameworks       = "Shared.xcframework"
     s.platform                  = :ios
     s.swift_version             = '5'
     s.ios.deployment_target     = '13.0'
